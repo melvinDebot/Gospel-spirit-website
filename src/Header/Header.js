@@ -8,10 +8,10 @@ import twitter from '../assets/img/twitter.svg';
 import music from '../assets/maker.mp3'
 
 const Header = () => {
-  const [audio, state, controls, ref] = useAudio({
+  const [audio, controls] = useAudio({
     src: music,
-    autoPlay: false,
-    volume: 5
+    autoPlay: true,
+    volume: 1
   });
   return(
     <div className="header">
