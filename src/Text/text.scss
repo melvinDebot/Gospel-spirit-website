@@ -1,0 +1,30 @@
+.containt-text{
+  width: 100%;
+  height: 55vh;
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+
+  p{
+    justify-self: flex-end;
+  }
+
+  img{
+    width: 40%;
+
+  }
+
+}
+
+@media (max-width:800px){
+  .containt-text{
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+  }
+  p{
+    width: 50%
+  }
+}

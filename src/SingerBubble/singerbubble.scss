@@ -1,0 +1,73 @@
+.containt-singer{
+  width: 100%;
+  height: 90vh;
+  background: black;
+  color: white;
+  h2{
+    text-align: center;
+    margin-top: 40px;
+  }
+  .text-legende{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    @media (max-width:600px){
+      width: 100%;
+    }
+    div{
+      display: flex;
+      align-items: center;
+    }
+    .singer-dot{
+      width: 10px;
+      height: 10px;
+      background: #06ACF4;
+      border-radius: 50%;
+      margin-left: 7px;
+    }
+    .two{
+      width: 10px;
+      height: 10px;
+      background: blue;
+      border-radius: 50%;
+      margin-left: 7px;
+    }
+    .tree{
+      width: 10px;
+      height: 10px;
+      background: red;
+      border-radius: 50%;
+      margin-left: 7px;
+    }
+  }
+  .containt-bubble{
+    width: 100%;
+    height: 70%;
+    overflow-y: hidden;
+    .bubble{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(250, 250, 250, .5);
+      position: relative;
+      border-radius: 50%;
+      box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);
+      cursor: pointer;
+    }
+    .twoBubble{
+      &:hover{
+        background-color: blue;
+      }
+    }
+    .treeBubble{
+      &:hover{
+        background-color: red;
+      }
+    }
+    .one{
+      &:hover{
+        background-color: #06ACF4;
+      }
+    }
+  }
+}
