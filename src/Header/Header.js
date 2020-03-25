@@ -4,7 +4,7 @@ import {useAudio} from 'react-use';
 import videoOne from '../assets/video/video-one.mp4';
 
 // A changer
-import instagram from '../assets/img/instagram.png';
+import instagram from '../assets/img/instagram.svg';
 import facebook from '../assets/img/facebook.svg';
 import twitter from '../assets/img/twitter.svg';
 import music from '../assets/maker.mp3'
