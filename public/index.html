@@ -4,12 +4,13 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="theme-color" content="#006FAD" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Le Gospel Spirit n’est pas un groupe de musique mais un concept qui doit aboutir à un ministère"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!--
@@ -31,6 +32,11 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <script>
+      navigator.serviceWorker.register('./sw.js')
+      .then(() => console.log('Service worker is registered'))
+      .catch(err => console.warn(err))
+    </script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

@@ -1,6 +1,8 @@
 {
-  "theme_color": "#000000",
-  "background_color": "#000000",
+  "name": "Gospel Spirit",
+  "short_name": "Gospel Spirit",
+  "theme_color": "#006fad",
+  "background_color": "#006fad",
   "display": "standalone",
   "Scope": "/",
   "start_url": "/",
