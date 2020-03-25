@@ -1,0 +1,37 @@
+.containt-text-descrip{
+  width: 100%;
+  height: 98vh;
+  background: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  @media (max-width:500px){
+    height: 130vh;
+  }
+
+  p{
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+    width: 78%;
+  }
+  .img-containt-text{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img{
+      width: 45vw;
+
+      @media (max-width:500px){
+        width: 75vw;
+      }
+    }
+  }
+}

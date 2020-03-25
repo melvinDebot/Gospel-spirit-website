@@ -1,0 +1,29 @@
+.contain-number{
+  width: 100%;
+  height: 30vh;
+  background: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media screen and (max-width : 700px){
+    flex-direction: column;
+    height: 85vh;
+  }
+
+  .box{
+    width: 205px;
+    height: 149px;
+    margin-left: 20px;
+    margin-right: 20px;
+    opacity: 0;
+    .box--number{
+      font-weight: 800;
+      font-size: 6rem;
+    }
+    .box--text{
+      color: #1E99CE;
+      font-weight: bold;
+    }
+  }
+}

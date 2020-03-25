@@ -3,6 +3,10 @@ import './App.scss';
 import Header from './Header/Header';
 import Text from './Text/Text';
 import SingerBubble from './SingerBubble/SingerBubble'
+import TextDescrip from './TextDescrip/TextDescrip';
+import Number from './Number/Number';
+import TextParagraphe from './TextParagraphe/TextParagraphe';
+import Footer from './Footer/Footer';
 
 class App extends React.Component{
   render(){
@@ -11,7 +15,10 @@ class App extends React.Component{
         <Header />
         <Text />
         <SingerBubble />
-        <div className="tete"></div>
+        <TextDescrip />
+        <Number />
+        <TextParagraphe />
+        <Footer />
       </div>
     )
   }

@@ -1,18 +1,27 @@
 .containt-text{
   width: 100%;
-  height: 55vh;
-  background: black;
+  height: 75vh;
+  background: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: white;
+  color: black;
+  @media screen and (max-width:700px){
+    height: 100vh;
+  }
 
   p{
     justify-self: flex-end;
+    font-size: 18px;
+    width: 78%;
   }
 
   img{
     width: 40%;
+
+    @media screen and (max-width:700px){
+      width: 70%
+    }
 
   }
 
@@ -24,7 +33,7 @@
     flex-direction: column;
     height: 75vh;
   }
-  p{
+  .text{
     width: 50%
   }
 }

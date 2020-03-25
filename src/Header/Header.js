@@ -2,6 +2,8 @@ import React from 'react';
 import {useAudio} from 'react-use';
 
 import videoOne from '../assets/video/video-one.mp4';
+
+// A changer
 import instagram from '../assets/img/instagram.png';
 import facebook from '../assets/img/facebook.svg';
 import twitter from '../assets/img/twitter.svg';
@@ -22,9 +24,9 @@ const Header = () => {
             <mask id="maskLayer">
               <rect width="100%" height="100%" fill="#FFF"></rect>
               <text x="5%" y="50%">La musique </text>
-              <text x="5%" y="61%">d'une vie</text>
+              <text x="5%" y="64%">d'une vie</text>
             </mask>
-            <rect id="masked" width="100%" height="100%" fill="black"></rect>
+            <rect id="masked" width="100%" height="100%" fill="white"></rect>
           </svg>
           <video src={videoOne} id="bg" autoPlay loop muted></video>
           <div className="header-bottom">

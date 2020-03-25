@@ -1,6 +1,10 @@
 @import './Header/header.scss';
 @import './Text/text.scss';
 @import './SingerBubble/singerbubble.scss';
+@import './TextDescrip/textDescrip.scss';
+@import './Number/number.scss';
+@import './TextParagraphe/TextParagraphe.scss';
+@import './Footer/footer.scss';
 
 *{
   margin: 0;
@@ -9,14 +13,25 @@
   
 }
 body{
-  background: black;
+  background: white;
+  color: black;
+  
 }
-.tete{
-  width: 100%;
-  height: 70vh;
-  background: black;
-  border: 1px solid yellow;
-}
+// .app-text{
+//   text-align: justify;
+//   width: 100%;
+//   height: 60vh;
+//   border: 1px solid green;
+//   height: 20px;
+//   display: flex;
+//   justify-content: center;
+//   font-size: 18px;
+//   p{
+//     width: 78%;
+//   }
+  
+// }
+
 
 
 
